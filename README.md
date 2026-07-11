@@ -1,52 +1,262 @@
-# WatchesByFahad
+# WatchesByFahad — Premium Watch eCommerce Platform
 
-Personal eCommerce website for selling watches in Pakistan — built and owned by **Hasham Mubarak**.
+A modern eCommerce website built for selling premium watches in Pakistan.
 
-Live at [watchesbyfahad.com](https://watchesbyfahad.com)
+WatchesByFahad provides customers with a smooth online shopping experience including product browsing, variant selection, Cash on Delivery ordering, and order management through an admin dashboard.
 
 ---
 
-## Tech Stack
+# Developed By
 
-- [Next.js 14](https://nextjs.org/) — App Router, server-side rendering
-- [Firebase](https://firebase.google.com/) — Firestore (orders), Auth (admin login)
-- [Tailwind CSS](https://tailwindcss.com/)
-- TypeScript
+## Zynox Tech
 
-## Features
+Website: https://zynoxtech.site  
+Email: hello@zynoxtech.site  
+Location: Abbottabad, Pakistan
 
-- Product catalog with color/variant selection
-- Cash on Delivery order form
+Zynox Tech is a software development company specializing in:
+
+- Modern Web Applications
+- Mobile Applications
+- eCommerce Solutions
+- Artificial Intelligence Solutions
+- Enterprise Software
+- Custom Digital Products
+
+We help businesses build scalable, secure, and user-focused digital solutions that improve their online presence and operations.
+
+For software development services and technology partnerships:
+
+Website: https://zynoxtech.site  
+Email: hello@zynoxtech.site
+
+---
+
+# Project Overview
+
+WatchesByFahad is a full-featured eCommerce platform designed for selling watches online in Pakistan.
+
+The platform focuses on:
+
+- Simple shopping experience
+- Product discovery
+- Secure order management
+- Admin control system
+- Mobile-friendly design
+
+The application provides customers with an easy way to explore watches, select variants, and place orders through Cash on Delivery.
+
+---
+
+# Features
+
+## Customer Features
+
+- Product catalog
+- Product detail pages
+- Watch color and variant selection
+- Cash on Delivery ordering
 - WhatsApp order confirmation
-- Admin dashboard for managing orders
-- TikTok Pixel event tracking
+- Responsive mobile experience
 
-## Local Development
+## Admin Features
+
+- Secure admin authentication
+- Order management dashboard
+- Customer order tracking
+- Product management support
+
+## Marketing Features
+
+- TikTok Pixel integration
+- Conversion tracking
+- Optimized product presentation
+
+---
+
+# Technology Stack
+
+## Frontend
+
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+
+## Backend & Database
+
+- Firebase Firestore
+- Firebase Authentication
+
+## Deployment
+
+- Vercel / Modern Cloud Hosting
+
+---
+
+# Getting Started
+
+## Requirements
+
+Make sure you have installed:
+
+- Node.js 18+
+- npm
+- Git
+
+Check Node.js version:
+
+```bash
+node --version
+```
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/watchesbyfahad.git
+```
+
+Navigate into the project:
+
+```bash
+cd watchesbyfahad
+```
+
+Install dependencies:
 
 ```bash
 npm install
+```
+
+---
+
+# Environment Setup
+
+Create environment file:
+
+```bash
 cp .env.local.example .env.local
-# Fill in your Firebase config in .env.local
+```
+
+Add your Firebase configuration:
+
+```
+.env.local
+```
+
+Firebase configuration can be found at:
+
+Firebase Console → Project Settings → Your Apps → SDK Setup
+
+---
+
+# Run Development Server
+
+Start the application:
+
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+Open:
 
-## Environment Variables
+```
+http://localhost:3000
+```
 
-Copy `.env.local.example` to `.env.local` and fill in your values.
+---
 
-Find your Firebase config at: Firebase Console → Project Settings → Your apps → SDK setup
-
-## Routes
+# Application Routes
 
 | Route | Description |
 |---|---|
-| `/` | Homepage — product grid |
-| `/product/[id]` | Product detail + order form |
-| `/admin` | Admin login |
-| `/admin/dashboard` | Orders management |
+| `/` | Homepage with product listings |
+| `/product/[id]` | Product details and order form |
+| `/admin` | Admin authentication |
+| `/admin/dashboard` | Order management dashboard |
 
-## License
+---
 
-Personal project — all rights reserved. © Hasham Mubarak
+# Project Structure
+
+```
+watchesbyfahad/
+
+├── app/
+│   ├── page.tsx
+│   ├── product/
+│   ├── admin/
+│   └── layout.tsx
+
+├── components/
+│   └── Reusable UI components
+
+├── lib/
+│   └── Firebase configuration
+
+├── public/
+│   └── Images and assets
+
+├── package.json
+
+├── .env.local
+
+└── README.md
+```
+
+---
+
+# Production Build
+
+Create production build:
+
+```bash
+npm run build
+```
+
+Start production server:
+
+```bash
+npm start
+```
+
+---
+
+# Deployment
+
+Recommended deployment platforms:
+
+- Vercel
+- Firebase Hosting
+- AWS
+
+---
+
+# Live Website
+
+Visit:
+
+https://watchesbyfahad.com
+
+---
+
+# License
+
+This project was developed by **Zynox Tech**.
+
+All rights reserved.
+
+For eCommerce solutions, custom websites, and digital product development:
+
+Zynox Tech  
+Website: https://zynoxtech.site  
+Email: hello@zynoxtech.site  
+
+---
+
+Developed by **Zynox Tech**  
+Abbottabad, Pakistan
